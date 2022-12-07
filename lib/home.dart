@@ -7,7 +7,11 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: Container(),
+        child: Container(
+          width: 200,
+          height: 200,
+          color: Colors.red,
+        ),
       ),
     );
   }
